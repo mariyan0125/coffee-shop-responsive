@@ -13,7 +13,7 @@
     margin-right: 2rem;
   }
     
-    @include respond(tab-land) {
+    @include respond(phone) {
       &:last-of-type {
         margin-right: 2rem;
       }  

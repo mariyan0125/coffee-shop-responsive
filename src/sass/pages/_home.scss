@@ -164,10 +164,11 @@
   .section-specials--flex {
     display: flex;
 
-    @include respond(tab-land) {
+    @include respond(phone) {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 3rem !important;
+    
     }
   }
   ////////////////////////////////////

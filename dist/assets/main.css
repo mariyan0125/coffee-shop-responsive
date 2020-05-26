@@ -20,7 +20,6 @@ html {
   scroll-behavior: smooth; }
 
 @keyframes moveInLeft {
-  /* opacity, transform - properties*/
   0% {
     opacity: 0;
     transform: translateX(-10rem); }
@@ -31,7 +30,6 @@ html {
     transform: translateX(0); } }
 
 @keyframes moveInRight {
-  /* opacity, transform - properties*/
   0% {
     opacity: 0;
     transform: translateX(10rem); }
@@ -42,7 +40,6 @@ html {
     transform: translateX(0); } }
 
 @keyframes moveInBottom {
-  /* opacity, transform - properties*/
   0% {
     opacity: 0;
     transform: translateY(3rem); }
@@ -88,7 +85,6 @@ body {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /* font-size: 1.6rem; */
   line-height: 1.7;
   color: #777;
   font-size: 1.6rem; }
@@ -97,7 +93,7 @@ body {
   color: #f7f7f7;
   text-transform: uppercase;
   backface-visibility: hidden;
-  /* to remove shake at the end of the animation (back part of the element is hidden)*/
+  /* to remove shaking at the end of the animation (back part of the element is hidden)*/
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
@@ -415,7 +411,7 @@ body {
   flex: 0 1 27rem; }
   .specials-box:not(:last-of-type) {
     margin-right: 2rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 37.5em) {
     .specials-box:last-of-type {
       margin-right: 2rem; } }
   .specials-box__img {
@@ -666,7 +662,7 @@ body {
 
 .section-specials--flex {
   display: flex; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 37.5em) {
     .section-specials--flex {
       flex-wrap: wrap;
       justify-content: center;
@@ -698,13 +694,6 @@ body {
         justify-self: center; } }
   .contact__address {
     justify-self: end; }
-    @media only screen and (max-width: 37.5em) {
-      .contact__address {
-        width: 100%; }
-        .contact__address h3 {
-          display: block; }
-        .contact__address h3, .contact__address p {
-          text-align: center; } }
     .contact__address h3 {
       margin-bottom: 1.5rem; }
     .contact__address ul {
@@ -714,3 +703,10 @@ body {
         justify-content: space-between; }
       .contact__address ul li:not(:last-of-type) {
         margin-bottom: .6rem; }
+    @media only screen and (max-width: 37.5em) {
+      .contact__address {
+        width: 100%; }
+        .contact__address h3 {
+          display: block; }
+        .contact__address h3, .contact__address p {
+          text-align: center; } }
