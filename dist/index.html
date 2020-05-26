@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/main.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon-1.png" />
+    <title>Coffee Shop | We serve the best coffee</title>
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About</a></li>
+          <li class="navigation__item"><a href="#menu" class="navigation__link"><span>02</span>Menu</a></li>
+          <li class="navigation__item"><a href="#specials" class="navigation__link"><span>03</span>Specials</a></li>
+          <li class="navigation__item"><a href="#reviews" class="navigation__link"><span>04</span>Reviews</a></li>
+          <li class="navigation__item"><a href="#contact" class="navigation__link"><span>05</span>Get in touch</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="assets/img/logo-white.png" alt="Logo Image" class="header__logo">
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">best coffee</span>
+          <span class="heading-primary--sub">experience love at first sip</span>
+        </h1>
+        <a href="#specials" class="btn btn--white btn--animated">Our special menu</a>
+      </div>
+    </header>
+    <main>
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-top-medium u-margin-bottom-medium">
+          <h2 class="heading-secondary heading-empty">
+            About
+          </h2>
+        </div>
+          <div class="u-container section-about--grid">
+            <div class="text-box">
+              <h3 class="heading-tertiary u-margin-bottom-small">It all started with... </h3>
+              <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate qui perferendis sequi illo vel? Repudiandae doloribus sit id rerum, nulla, molestiae blanditiis sint nostrum nihil et repellat dolorem at cupiditate quo maxime. Accusantium, quae explicabo!</p>
+              <h3 class="heading-tertiary u-margin-bottom-small">Cafe and Bar</h3>
+              <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate qui perferendis sequi illo vel? Repudiandae doloribus sit id rerum, nulla, molestiae blanditiis sint nostrum nihil et repellat dolorem at cupiditate quo maxime. Accusantium, quae explicabo!</p>
+            </div>
+            <div class="img-box">
+              <!-- Resolution switching and Density switching RESPONSIVE IMAGES -->
+              <img srcset="assets/img/coffee-1-small.jpg 345w, assets/img/coffee-1-large.jpg 1000w" 
+              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 345px" 
+              alt="Image of a grinded coffee" 
+              class="img-box__photo img-box__photo--p1"
+              src="assets/img/coffee-1-large.jpg"
+              >
+              <img srcset="assets/img/coffee-2-small.jpg 345w, assets/img/coffee-2-large.jpg 1000w" 
+              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 345px" 
+              alt="Image of a barista" 
+              class="img-box__photo img-box__photo--p2"
+              src="assets/img/coffee-2-large.jpg"
+              >
+              <img srcset="assets/img/coffee-3-small.jpg 345w, assets/img/coffee-3-large.jpg 1000w" 
+              sizes="(max-width: 56.25em) 30vw, (max-width: 37.5em) 30vw, 345px" 
+              alt="Image of a coffee machine"
+              class="img-box__photo img-box__photo--p3"
+              src="assets/img/coffee-3-large.jpg"
+              >
+            </div>
+          </div>
+      </section>
+
+      <!-- SPECIAL MENU SECTION  -->
+      <section class="section-specials" id="specials">
+        <div class="u-center-text u-margin-top-extra u-margin-bottom-medium">
+          <h2 class="heading-secondary heading-empty">
+            Special Menu
+          </h2>
+        </div>
+        <div class="u-container section-specials--flex">
+          <div class="specials-box">
+            <!-- Resolution switching and Density switching RESPONSIVE IMAGES -->
+            <img srcset="assets/img/coffee-4-small.jpg 300w, assets/img/coffee-4.jpg 1000w" 
+            sizes="(max-width: 56.25em) 22.3vw, (max-width: 37.5em) 36vw, 324px" 
+            alt="Image of coffee collection"
+            class="specials-box__img"
+            src="assets/img/coffee-4.jpg"
+            >
+            <div class="specials-box__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Try our custom-brew instant coffee</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deserunt, facere impedit saepe molestias quae.</p>
+            </div> 
+          </div>
+          <div class="specials-box"> 
+            <img srcset="assets/img/coffee-5-small.jpg 300w, assets/img/coffee-5.jpg 1000w" 
+            sizes="(max-width: 56.25em) 22.3vw, (max-width: 37.5em) 36vw, 324px" 
+            alt="Image of a cup of coffee and a fruit tart" 
+            class="specials-box__img"
+            src="assets/img/coffee-5.jpg"
+            >       
+            <div class="specials-box__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Try our Selection of Tarts</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deserunt, facere impedit saepe molestias quae.</p>
+            </div> 
+          </div>
+          <div class="specials-box">  
+            <img srcset="assets/img/coffee-6-small.jpg 300w, assets/img/coffee-6.jpg 1000w" 
+              sizes="(max-width: 56.25em) 22.3vw, (max-width: 37.5em) 36vw, 324px" 
+              alt="Image of a cup of coffee and tiramisu"  
+              class="specials-box__img"
+              src="assets/img/coffee-6.jpg"
+              > 
+            <div class="specials-box__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Try our custom-brew instant coffee</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deserunt, facere impedit saepe molestias quae.</p>
+            </div> 
+          </div>
+          <div class="specials-box">
+            <img srcset="assets/img/coffee-7-small.jpg 300w, assets/img/coffee-7.jpg 1000w" 
+              sizes="(max-width: 56.25em) 22.3vw, (max-width: 37.5em) 36vw, 324px" 
+              alt="Image of a cup of coffee and a croissant"   
+              class="specials-box__img"
+              src="assets/img/coffee-7.jpg"
+              >  
+            <div class="specials-box__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Try our custom-brew instant coffee</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore deserunt, facere impedit saepe molestias quae.</p>
+            </div> 
+          </div>
+        </div>
+        <a href="#menu" class="btn btn--yellow">Check our menu!</a>
+      </section>
+      
+      <!-- SECTION REVIEWS -->
+      <section class="section-reviews" id="reviews">
+        <div class="u-container">
+          <div class="review">
+            <figure class="review__shape"> <!-- new -->
+              <img src="assets/img/review-1.jpg" alt="Image of a person enjoying her coffee" class="review__img">
+              <figcaption class="review__caption">
+                Sofy Smith
+              </figcaption>
+            </figure>
+            <div class="review__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">Amaizing coffee and atmosphere</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quod placeat iusto iste inventore a aut ea, eligendi accusantium numquam possimus distinctio quidem. Possimus, numquam. Eligendi accusantium numquam possimus distinctio quidem. Possimus, numquam.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="u-container">
+          <div class="review">
+            <figure class="review__shape"> <!-- new -->
+              <img src="assets/img/review-2.jpg" alt="Image of a person drinking coffee" class="review__img">
+              <figcaption class="review__caption">
+                Jake Johnes
+              </figcaption>
+            </figure>
+            <div class="review__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">The best custom-brew instant coffee</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quod placeat iusto iste inventore a aut ea, eligendi accusantium numquam possimus distinctio quidem. Possimus, numquam. Eligendi accusantium numquam possimus distinctio quidem. Possimus, numquam.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-medium">
+          <a href="#" class="btn-text">
+          Read all stories &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- SECTION MENU -->
+      <section class="section-menu" id="menu">
+        <div class="u-center-text u-margin-top-extra u-margin-bottom-medium">
+          <h2 class="heading-secondary heading-empty">
+            Menu
+          </h2>
+        </div>
+        <div class="u-container section-menu--grid">
+          <!-- Breakfast -->
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Breakfast</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Veggie Breakfast Sandwich</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Bacon Breakfast Sandwich</h3>
+              <div class="price">$6.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Avocado Toast </h3>
+              <div class="price">$7.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+          </div>
+          <!-- Lunch -->
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Lunch</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Roasted lamb leg set</h3>
+              <div class="price">$13.80</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Roasted veggie plate </h3>
+              <div class="price">$12.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Baked salmon</h3>
+              <div class="price">$13.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+          </div>
+          <!-- Salads -->
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Salads</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Mixed Greens</h3>
+              <div class="price">$6.80</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Potato Dill Salad</h3>
+              <div class="price">$7.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+          </div> 
+
+          <!-- Drinks -->
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Drinks hot</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Espresso</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Americano</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Latte</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Cappuccino</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Hot Chocolate</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Selection of Teas</h3>
+              <div class="price">$7.00</div>
+            </div> 
+          </div>
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Drinks cold</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Iced Tea</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Fruit - Mix Tea</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Iced Latte</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Custom-brew Cappuccino</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Custom-brew Latte - Mix</h3>
+              <div class="price">$7.00</div>
+            </div>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Custom-brew instant coffee</h3>
+              <div class="price">$7.00</div>
+            </div>
+          </div>
+          <!-- Pastry -->
+          <div class="section-menu--grid-item">
+            <h2 class="heading-secondary--sub u-margin-bottom-small">Pastry</h2>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Selection of Tarts</h3>
+              <div class="price">$5.00</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+            <div class="menu-item-flex">
+              <h3 class="heading-tertiary">Tiramisu</h3>
+              <div class="price">$5.50</div>
+            </div>
+            <p class="paragraph">lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fuga optio.</p>
+          </div>       
+      </div>
+      </section>
+
+      <!-- SECTION CONTACT FORM  -->
+      <section class="section-contact" id="contact">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop><!-- new -->
+            <source src="assets/img/video.mp4" type="video/mp4">
+            <!-- <source src="img/video.webm" type="video/webm"> -->
+                Your browser is not supported!
+          </video> <!--  video from unsplash.com -->
+        </div>
+        <div class="u-container">
+          <div class="contact">
+            <div class="contact__form">
+              <form action="#" class="form">
+                <div class="u-center-text u-margin-top-small u-margin-bottom-medium">
+                  <h2 class="heading-secondary">
+                    Get in touch
+                  </h2>
+                </div>
+                <div class="form__group">
+                  <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+                <div class="form__group">
+                  <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+                <div class="form__group">
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="catering" name="service">
+                    <label for="catering" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Catering</label>
+                  </div>
+                  <div class="form__radio-group u-margin-bottom-small">
+                    <input type="radio" class="form__radio-input" id="rent" name="service">
+                    <label for="rent" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      Rent our space</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn--yellow">Send &rarr;</button>
+                </div>
+              </form>
+            </div>
+            <div class="contact__address">
+              <h3 class="heading-secondary">Address</h3>
+                <p class="paragraph">
+                 1477 Bloor St W,
+                 Toronto, ON M6P 3L8
+                </p>
+                <h3 class="heading-secondary">Hours</h3>
+                <ul>
+                  <li>Monday:<span>7:00 a.m. &ndash; 6:00 p.m.</span></li>
+                  <li>Tuesday:<span>7:00 a.m. &ndash; 6:00 p.m.</span></li>
+                  <li>Wednesday:<span>7:00 a.m. &ndash; 6:00 p.m.</span></li>
+                  <li>Thursday:<span>7:00 a.m. &ndash; 6:00 p.m.</span></li>
+                  <li>Friday:<span>7:00 a.m. &ndash; 6:00 p.m.</span></li>
+                  <li>Saturday:<span>9:00 a.m. &ndash; 7:00 p.m.</span></li>
+                  <li>Sunday:<span>9:00 a.m. &ndash; 7:00 p.m.</span></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__text-box u-container">
+        <p class="footer__copyright">Design inspired by Jonas Schmedtmann</p> 
+        <p class="footer__copyright">All images are retrieved from Unsplash.com</p>  
+        <p>Copyright &copy;  2020</p>
+      </div>
+    </footer>
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
