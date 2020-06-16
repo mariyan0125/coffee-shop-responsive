@@ -5,3 +5,4 @@
  - Flex boxes and grid
  - BEM 
  - Animated buttons 
+<img  src="dist/assets/img/coffeeshop.gif" alt="Coffeeshop">
